@@ -13,10 +13,9 @@ on:
   # push:
     # branches: 
       # - master
-      
-  # schedule:
-    # - cron: 0 8 * * 5
-  
+  push:
+    paths:
+      - 'MenuConfig/canbox_cm520-79f.config'
   watch:
     types: [started]
 
