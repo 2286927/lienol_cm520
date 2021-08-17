@@ -17,7 +17,7 @@ on:
     paths:
       - 'MenuConfig/canbox_cm520-79f.config'
   watch:
-    types: [started]
+    types: started
 
 jobs:
   build:
